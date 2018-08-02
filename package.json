@@ -1,0 +1,46 @@
+{
+  "name": "trial",
+  "version": "1.0.0",
+  "description": "Borked Studios Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -d --watch",
+    "start": "node ./server/index.js",
+    "build": "webpack -p",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "postinstall": "webpack",
+    "heroku-postbuild": "webpack -p"
+  },
+  "author": "Christopher Jensen",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "webpack": "^3.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Murdrlol/borkedstudioswebsite.git"
+  },
+  "keywords": [
+    "borked",
+    "studio",
+    "website",
+    "react",
+    "redux"
+  ],
+  "bugs": {
+    "url": "https://github.com/Murdrlol/borkedstudioswebsite/issues"
+  },
+  "homepage": "https://github.com/Murdrlol/borkedstudioswebsite#readme"
+}
